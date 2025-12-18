@@ -1,0 +1,30 @@
+body{
+	background-color: lightgray;
+	display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.calculator{
+	background: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+input, select, button {
+    width: 250px;
+}
+
+button {
+    background-color: mediumpurple;
+    color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 3px;
+}
+
